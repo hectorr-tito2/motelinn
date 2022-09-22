@@ -92,6 +92,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
      * it inside the SupportMapFragment. This method will only be triggered once the user has
      * installed Google Play services and returned to the app.
      */
+
     //funcción que muestra el mapa de google maps
     override fun onMapReady(googleMap: GoogleMap) {
         map = googleMap
